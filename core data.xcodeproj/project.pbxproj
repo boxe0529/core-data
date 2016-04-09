@@ -16,6 +16,7 @@
 		183C7E961C2A87D400BFF03F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183C7E941C2A87D400BFF03F /* LaunchScreen.storyboard */; };
 		183C7EA11C2A87D400BFF03F /* core_dataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C7EA01C2A87D400BFF03F /* core_dataTests.m */; };
 		183C7EAC1C2A87D400BFF03F /* core_dataUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C7EAB1C2A87D400BFF03F /* core_dataUITests.m */; };
+		CFE06EA81CB8F48C0093039D /* DemoGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = CFE06EA71CB8F48C0093039D /* DemoGif.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		183C7EA71C2A87D400BFF03F /* core dataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "core dataUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		183C7EAB1C2A87D400BFF03F /* core_dataUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = core_dataUITests.m; sourceTree = "<group>"; };
 		183C7EAD1C2A87D400BFF03F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE06EA71CB8F48C0093039D /* DemoGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DemoGif.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		183C7E821C2A87D400BFF03F /* core data */ = {
 			isa = PBXGroup;
 			children = (
+				CFE06EA71CB8F48C0093039D /* DemoGif.gif */,
 				183C7E861C2A87D400BFF03F /* AppDelegate.h */,
 				183C7E871C2A87D400BFF03F /* AppDelegate.m */,
 				183C7E891C2A87D400BFF03F /* ViewController.h */,
@@ -248,6 +251,7 @@
 			files = (
 				183C7E961C2A87D400BFF03F /* LaunchScreen.storyboard in Resources */,
 				183C7E931C2A87D400BFF03F /* Assets.xcassets in Resources */,
+				CFE06EA81CB8F48C0093039D /* DemoGif.gif in Resources */,
 				183C7E8E1C2A87D400BFF03F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +504,7 @@
 				183C7EB21C2A87D400BFF03F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		183C7EB31C2A87D400BFF03F /* Build configuration list for PBXNativeTarget "core dataTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +513,7 @@
 				183C7EB51C2A87D400BFF03F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		183C7EB61C2A87D400BFF03F /* Build configuration list for PBXNativeTarget "core dataUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +522,7 @@
 				183C7EB81C2A87D400BFF03F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
